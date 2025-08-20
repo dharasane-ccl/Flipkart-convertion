@@ -1,0 +1,193 @@
+* {
+    font-family: Arial, sans-serif;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.658);
+}
+/* first */
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.959); 
+    padding: 10px 20px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex; flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-container {
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.952);
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 20px;
+    max-width: 600px;
+}
+
+.search-icon {
+    color: rgba(128, 128, 128, 0.89);
+    margin-right: 10px;
+}
+
+.search {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown {
+    padding: 6px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* second */
+
+.items {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.897);
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+    width: 80px;
+}
+
+.category img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.category span {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* inline products */
+.mobile,
+.fashion,
+.toys {
+    background-color: rgba(255, 255, 255, 0.938);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    
+}
+
+h1,
+h2 {
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section,
+.food,
+.wear {
+    display: flex;
+    gap: 100px;
+    padding: 0 20px 20px 20px;
+
+}
+
+.product img,
+.beauty img,
+.men img {
+    width: 100px;
+    height: 150px;
+    margin: 0px;
+
+}
+
+p {
+    position: relative;
+    top: 20px;
+    text-align: center;
+
+}
+
+/* section */
+.start {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.sales,
+.home,
+.gadgets {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.575);
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 2px 3px rgba(255, 255, 255, 0.938);
+}
+
+.wrappers {
+    background-color: rgba(255, 255, 255, 0.966);
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.959);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 400px;
+}
+
+.offers {
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 10px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.offers img {
+
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.offers p {
+    padding: 0;
+    position: relative;
+    top: 10px;
+    text-align: left;
+    margin: 0;
+
+}
