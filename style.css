@@ -6,10 +6,14 @@
 
 }
 
+body {
+    background: rgba(220, 220, 220, 0.37);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(245, 245, 245, 0.658);
+
 }
 
 /* first */
@@ -20,14 +24,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.959);
+    background: white;
     padding: 10px 20px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .search-container {
     display: flex;
-    background-color: rgba(240, 248, 255, 0.952);
+    background: white;
     align-items: center;
     padding: 5px 10px;
     border-radius: 5px;
@@ -76,7 +80,7 @@
     gap: 20px;
     padding: 20px;
     margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.897);
+    background: white;
     box-sizing: border-box;
     width: 100%;
     box-shadow: 0 1px rgba(0, 0, 0, 0.1);
@@ -107,7 +111,7 @@
 .mobile,
 .fashion,
 .toys {
-    background-color: rgba(255, 255, 255, 0.938);
+    background: white;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0);
     margin-top: 20px;
 
@@ -131,19 +135,17 @@ h2 {
 }
 
 .product img,
-.beauty img,
-.men img {
+.men img,
+.beauty img {
     width: 100px;
     height: 150px;
     margin: 0px;
-
 }
 
 p {
     position: relative;
     top: 20px;
     text-align: center;
-
 }
 
 /* section */
@@ -156,8 +158,8 @@ p {
 .sales,
 .home,
 .gadgets {
-    width: 350px;
-    background-color: rgba(255, 255, 255, 0.575);
+    width: 400px;
+    background: white;
     margin-top: 10px;
     padding: 20px;
     box-shadow: 0 1px 2px 3px rgba(255, 255, 255, 0.938);
@@ -182,8 +184,8 @@ p {
 
 .offers img {
 
-    width: 100%;
-    height: 80%;
+    width: 100px;
+    height: 150px;
     display: block;
 }
 
@@ -193,17 +195,27 @@ p {
     top: 10px;
     text-align: left;
     margin: 0;
+}
+
+.gadgets img {
+    height: 135px;
 
 }
 
 /* footer */
 .list {
-    display: flex;
-    gap: 100px;
+
     background: black;
-    width: 1800px;
+    overflow: hidden;
     padding: 50px;
     margin-top: 10px;
+}
+
+.footer {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
 }
 
 li,
